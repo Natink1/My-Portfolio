@@ -33,12 +33,12 @@ const Services = () => {
   return (
     <div id="Services" className="transition-all ease-linear duration-700">
       <div>
-        <h1 className="text-center text-white font-bold text-6xl pt-10">
+        <h1 className="text-center text-white font-bold text-4xl lg:!text-6xl pt-10">
           Services
         </h1>
-        <p className="text-center text-white leading-10 pt-5 ">
+        <p className="text-center text-white pt-5 p-5 ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore{" "}
+          eiusmod tempor incididunt ut labore
         </p>
       </div>
       <div className="gap-y-2 pt-1 grid">

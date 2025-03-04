@@ -39,7 +39,7 @@ const Skills = () => {
         },
         {
             img: chart,
-            title: "Chart.js"
+            title: "Char Animator"
         },
         {
             img: after,
@@ -60,23 +60,23 @@ const Skills = () => {
     <div id="My_Skills">
     <div>
 
-        <h1 className="text-center text-white font-bold text-6xl pt-10">Skills</h1>
-        <p className="text-center text-white leading-10 pt-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+    <h1 className="text-center text-white font-bold text-4xl lg:!text-6xl pt-10">Skills</h1>
+    <p className="text-center text-white px-28 pt-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
     </div>
 
-    <div className="px-75 py-5 ">
-    <div className="bg-[#212121] rounded-4xl h-150 grid grid-cols-5 justify-between p-5 ">
+    <div className="px-20 lg:!px-64 py-8 ">
+    <div className="bg-[#212121] rounded-3xl h-150 grid grid-cols-2 lg:!grid-cols-5 justify-between p-5 ">
     {
                 skillImg.map((Skills, index) => (
 
-                <div key={index} className="py-10 place-self-center">
-                   <div className="text-center"> 
-                    <img className="w-25 hover:scale-110 transition-all duration-150"src={Skills.img}>
+                <div key={index} className="py-2 lg:!py-10 place-self-center place-items-center">
+                 
+                    <img className="w-10 lg:!w-24 hover:scale-110 transition-all duration-150"src={Skills.img}>
                  </img>
-                 <h1 className="pt-5 text-white text-xl text-center"  >{Skills.title}</h1>
+                 <h1 className="pt-2 lg:!pt-5 text-white text-sm lg:!text-xl text-center">{Skills.title}</h1>
                  </div>
                 
-                </div>
+    
                 )
             )
             }
