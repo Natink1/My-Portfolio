@@ -62,7 +62,7 @@ const Skills = () => {
         </h1>
         <p className="text-center text-white px-28 pt-5 ">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut{" "}
+          eiusmod tempor incididunt {" "}
         </p>
       </div>
 
