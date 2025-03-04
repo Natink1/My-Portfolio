@@ -42,7 +42,7 @@ const Services = () => {
         </p>
       </div>
       <div className="gap-y-2 pt-1 grid">
-        <div className=" grid grid-cols-1 place-self-center sm:!grid-cols-1 lg:!grid-cols-3">
+        <div className="grid grid-cols-1 place-self-center sm:!grid-cols-1 lg:!grid-cols-3">
           {ServiceData.map((Services, index) => (
             <div key={index}>
               <Cards title={Services.title} text={Services.text} />
