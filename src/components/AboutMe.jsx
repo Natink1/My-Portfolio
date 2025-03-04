@@ -29,7 +29,7 @@ const AboutMe = () => {
           my other skills. and I can program a little bit.
         </p>
       </div>
-      <div className="flex justify-between pb-10 w-10/12 lg:!w-4/12">
+      <div className="flex lg:!justify-between pb-10 flex-col lg:!flex-row lg:!w-4/12">
         <SocialInfo
           IMG={Email}
           title="Email Address"
@@ -38,7 +38,7 @@ const AboutMe = () => {
         <SocialInfo IMG={Twitter} title="Twitter" text="Naitnk4825@gmail.com" />
         <SocialInfo IMG={Phone} title="Phone" text="+251 924114825" />
       </div>
-      <hr className="w-6/12 pb-10"></hr>
+      <hr className="w-6/12 pb-2 lg:!pb-10"></hr>
     </div>
   );
 };
