@@ -41,8 +41,8 @@ const Services = () => {
           eiusmod tempor incididunt ut labore{" "}
         </p>
       </div>
-      <div className="gap-y-2 pt-1">
-        <div className="place-self-center items-center grid grid-cols-3">
+      <div className="gap-y-2 pt-1 grid">
+        <div className=" grid grid-cols-1 place-self-center sm:!grid-cols-1 lg:!grid-cols-3">
           {ServiceData.map((Services, index) => (
             <div key={index}>
               <Cards title={Services.title} text={Services.text} />
@@ -50,6 +50,7 @@ const Services = () => {
           ))}
         </div>
       </div>
+
     </div>
   );
 };

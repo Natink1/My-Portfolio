@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="py-20 px-6 md:px-20 flex flex-row md:flex-row lg:flex-row justify-between items-center">
+    <div className="py-20 px-6 md:px-20 flex flex-col md:!flex-col lg:!flex-row justify-between items-center">
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -19,7 +19,7 @@ const Hero = () => {
         <h2 className="text-white leading-15 text-2xl md:text-3xl">
           IT Support Specialist & Motion Graphics Designer
         </h2>
-        <button className=" mt-10 bg-[#FF8303] text-white w-40 h-12 rounded-lg transition-all duration-300 hover:border border-[#FF8303] hover:bg-transparent hover:drop-shadow-[0_0_3px_rgba(255,145,1,1)]">
+        <button className=" mt-10 bg-[#FF8303] text-white w-32 h-10 rounded-lg transition-all duration-300 hover:border border-[#FF8303] hover:bg-transparent hover:drop-shadow-[0_0_3px_rgba(255,145,1,1)]">
           Email Me
         </button>
       </motion.div>

@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div>
-      <div className="container mx-auto sm:hidden flex justify-between items-center py-6">
+      <div className="hidden container mx-auto lg:!flex justify-between items-center py-6">
         <div className="text-xl pl-25 font-bold flex items-center gap-1">
           <span className="text-orange-400">Portfolio</span>
         </div>
