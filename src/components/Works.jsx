@@ -2,7 +2,7 @@ import React from "react";
 
 const Works = () => {
   return (
-    <div id="Works" className="flex flex-col items-center p-8">
+    <div id="Works" className="flex flex-col items-center p-36">
       <h1 className="text-white text-5xl font-bold mb-8">Works</h1>
       <div className="grid grid-cols-3 gap-8">
         <div
@@ -10,7 +10,7 @@ const Works = () => {
                  row-span-2 relative overflow-hidden transition transform duration-200 hover:scale-105"
         >
           <img
-            src="https://via.placeholder.com/300x200"
+            src="src\images\num1.png"
             alt="Content 1"
             className="w-full h-full object-cover rounded-lg"
           />
@@ -21,7 +21,7 @@ const Works = () => {
                  relative overflow-hidden transition transform duration-200 hover:scale-105"
         >
           <img
-            src="https://via.placeholder.com/300x200"
+            src="src\images\Gena.jpg"
             alt="Content 2"
             className="w-full h-full object-cover rounded-lg"
           />
@@ -32,7 +32,7 @@ const Works = () => {
                  relative overflow-hidden transition transform duration-200 hover:scale-105"
         >
           <img
-            src="https://via.placeholder.com/300x200"
+            src="src\images\house.jpg"
             alt="Content 3"
             className="w-full h-full object-cover rounded-lg"
           />
