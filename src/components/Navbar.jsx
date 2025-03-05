@@ -69,7 +69,7 @@ const Navbar = () => {
       </div>
 
    
-      <div className="lg:!hidden flex justify-between items-center py-4 px-6 bg-gray-800">
+      <div className="lg:!hidden flex justify-between items-center py-4 px-6 bg-[#1d1d1d]">
         <div className="text-xl font-bold flex items-center gap-1 text-orange-400">
           Portfolio
         </div>
@@ -80,12 +80,13 @@ const Navbar = () => {
           {isMobileMenuOpen ? <IoMdClose /> : <CiMenuBurger />}
         </button>
       </div>
+
       {isMobileMenuOpen && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          className="lg:hidden bg-gray-900 text-white py-4 px-6"
+          className="lg:hidden bg-gray-950 text-white py-4 px-6"
         >
           <ul className="space-y-4 text-center">
             <Link
