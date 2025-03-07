@@ -3,7 +3,7 @@ import {motion } from "framer-motion"
 const ContactForm = () => {
   return (
 
-    <div id="Contactme" className=" min-h-screen flex flex-col items-center lg:!w-1/2 place-self-center justify-center py-12 px-6">
+    <div id="Contactme" className=" min-h-screen flex flex-col items-center lg:!w-1/2 w-11/12 place-self-center justify-center py-12 px-6">
       <div className="rounded-lg shadow-md p-8 w-full">
       <h1 className="text-center text-white font-bold text-2xl lg:!text-5xl pt-5 pb-5">Get in touch</h1> {/* Title */}
       <hr className='text-white w-6/12 place-self-center'></hr>
