@@ -2,7 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        spartan: ["'League Spartan'", "sans-serif"],
+      },
     screens: {
       sm: "640px", // ✅ Small screens
       md: "768px", // ✅ Medium screens
@@ -11,4 +14,6 @@ export default {
     },
   },
   plugins: [],
+}
+
 };

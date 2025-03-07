@@ -12,21 +12,21 @@ const AboutMe = () => {
         <h1 className="font-bold text-4xl lg:!text-6xl">About Me</h1>
 
         <p
-          className="pt-10 p-6 lg:!px-28 text-justify text-xl font-light"
-          styles="font-family: 'League Spartan', sans-serif;"
+          className="pt-10 p-6 lg:!px-28 font-spartan text-justify font-black text-2xl"
+         
         >
           {" "}
-          I received my diploma in hardware and networking from Addis Ababa
-          Tegbareid Polytechnic College. During my studies, I installed and
-          designed network structures, maintained computers, and troubleshooted
-          issues. and for creating an entrance security system with my team, I
-          received a gold medal. I began my studies at Addis Abeba University
-          after graduating with a bachelor’s degree in computer science. and I
-          have been employed as an IT officer for Droga Pharma for the past 1.5
-          years. I can troubleshoot any computer issues and solve problems.
-          Blender 3D animation, Adobe After Effects, Adobe Premier Pro, Adobe
-          Photoshop, Adobe Illustrator, and other editing software are some of
-          my other skills. and I can program a little bit.
+          I received my diploma in Hardware and Networking from Addis Ababa
+          Tegbareid Polytechnic College, where I designed network structures,
+          maintained computers, and troubleshot issues. I earned a gold medal
+          for developing an entrance security system with my team. I later
+          pursued a Bachelor's in Computer Science at Addis Ababa University. I
+          have worked as an IT Officer at Droga Pharma PLC for two years and
+          currently serve as a Technical Support Representative at Droga
+          Consulting P.L.C. (2024 - Present). I excel in troubleshooting
+          computer issues and have skills in 3D animation (Blender) and
+          graphic/video editing (Adobe After Effects, Premiere Pro, Photoshop,
+          Illustrator). I also have basic programming knowledge.
         </p>
       </div>
       <div className="flex lg:!justify-between pb-10 flex-col lg:!flex-row lg:!w-4/12">
