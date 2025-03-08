@@ -12,7 +12,7 @@ const AboutMe = () => {
         <h1 className="font-bold text-4xl lg:!text-6xl">About Me</h1>
 
         <p
-          className="pt-10 p-6 lg:!px-28 font-spartan text-justify font-black text-2xl"
+          className="pt-10 p-6 lg:!px-28 font-spartan text-justify  text-2xl"
          
         >
           {" "}
