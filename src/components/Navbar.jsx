@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="hidden container mx-auto lg:!flex justify-between items-center py-6">
-        <div className="text-xl pl-25 font-bold flex items-center gap-1">
+        <div className="text-xl pl-20 font-bold flex items-center gap-1">
           <span className="text-orange-400">Portfolio</span>
         </div>
         <div>

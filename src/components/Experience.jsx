@@ -18,7 +18,7 @@ const Experience = () => {
           <h1 className="text-center text-white font-bold text-2xl lg:!text-5xl pt-10">
             Droga Pharma PLC
           </h1>
-          <p className="text-[#FF8303]"> July 2022 - July 2024</p>
+          <p className="text-[#FF8303] mt-1"> July 2022 - July 2024</p>
         </div>
         <div className="w-6/12 pt-8">
           <h1 className="text-white text-2xl lg:!text-4xl font-bold">
@@ -39,7 +39,7 @@ const Experience = () => {
           <h1 className="text-center text-white font-bold text-2xl lg:!text-5xl pt-10">
             Droga Consulting PLC
           </h1>
-          <p className="text-[#FF8303]"> July 2022 - July 2024</p>
+          <p className="text-[#FF8303] mt-1"> July 2022 - July 2024</p>
         </div>
         <div className="w-6/12  ">
           <h1 className="text-white text-2xl lg:!text-4xl font-bold ">
