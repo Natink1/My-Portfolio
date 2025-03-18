@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className="text-white w-280 text-center pt-10">
         <h1 className="font-bold text-4xl lg:!text-6xl">About Me</h1>
 
-        <p className="pt-10 p-6 lg:!px-28 text-justify text-2xl ">
+        <p className="pt-10 p-6 lg:!px-28 text-justify text-md lg:!text-2xl  ">
           {" "}
           I received my diploma in Hardware and Networking from Addis Ababa
           Tegbareid Polytechnic College, where I designed network structures,

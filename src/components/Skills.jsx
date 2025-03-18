@@ -66,7 +66,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="px-20 lg:!px-64 py-8 ">
+      <div className="px-10 lg:!px-64 py-8 ">
         <div className="bg-[#212121] rounded-3xl h-150 grid grid-cols-2 lg:!grid-cols-5 justify-between p-5 ">
           {skillImg.map((Skills, index) => (
             <div
